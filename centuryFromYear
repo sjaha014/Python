@@ -1,0 +1,22 @@
+def centuryFromYear(year):
+    if 1 < year <= 100: 
+        return 1 
+    elif 100 < year <= 200: 
+        return 2
+    elif 300 < year <= 400: 
+        return 4    
+    elif 1600 < year <= 1700: 
+        return 17 
+    elif 1700 < year <= 1800: 
+        return 18
+    elif 1800 < year <= 1900: 
+        return 19
+    elif 1900 < year <= 2000: 
+        return 20
+    return 21     
+
+print(centuryFromYear(1905))
+print(centuryFromYear(1700))
+print(centuryFromYear(1988))
+print(centuryFromYear(2000))
+print(centuryFromYear(2001))
