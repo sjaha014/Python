@@ -1,0 +1,13 @@
+def checkPalindrome(inputString):
+    return inputString == inputString[::-1]
+
+
+inputString = "aabaa"
+answer = checkPalindrome(inputString)
+
+if answer: 
+    print("Yes")
+else: 
+    print("No")        
+    
+        
