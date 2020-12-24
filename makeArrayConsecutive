@@ -1,0 +1,12 @@
+def makeArrayConsecutive2(statues):
+    minimum = min(statues)
+    maxmium = max(statues)
+
+    list1 = []
+    
+    for i in range(minimum, maxmium+1):
+        if i not in statues:
+            list1.append(i)
+    
+    return len(list1)
+
